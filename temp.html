@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="msg">
+    
+   </div>
+   <p id="para">
+
+   </p>
+   <input type="text" id="textNum">
+   <button onclick="sqr()">Square Me!</button>
+   <button onclick="cube()">Cube Me!</button>
+   <button onclick="hello()">Hello!</button>
+   <hr>
+   <div id="result">
+
+   </div>
+</body>
+<script>
+    let a=10
+    let b=20
+    // document.write(a+b)
+    // console.log(a+b);
+    //msg.innerHTML=a+b
+     //document.querySelector("#msg").innerHTML=a+b
+    // let p=document.getElementById("msg")
+    // p.innerHTML=a+b
+    function sqr(){
+        let p=document.getElementById("textNum").value
+        //let d=p*p
+             document.getElementById("result").innerHTML=p*p
+    }
+    function hello(){
+        document.getElementById("result").innerHTML="HELLO WORLD"
+    
+    }
+    const cube=()=>{
+        let p=document.getElementById("textNum").value
+        
+             document.getElementById("result").innerHTML=p*p*p
+    }
+</script>
+</html>

@@ -1,4 +1,6 @@
-
+*{
+    scroll-behavior: smooth;
+}
 .first-row{
     display: flex;
     position: sticky;
