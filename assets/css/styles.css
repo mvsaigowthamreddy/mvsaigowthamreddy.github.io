@@ -1,5 +1,8 @@
 *{
     scroll-behavior: smooth;
+
+        font-family: 'Poppins', sans-serif;
+    
 }
 .first-row{
     display: flex;
@@ -8,10 +11,10 @@
     top: 0px;
     background-color: rgb(250, 232, 211);
     justify-content: space-between; 
-
+    font-size: medium;
 }
 .Projects{
-    background-color: lavender;
+    background-color: rgb(227, 227, 240);
     height: 100vh;
     text-align: center;
     display: flex;
@@ -33,10 +36,10 @@ background-color: rgb(252, 203, 220);
 
 .About{
 display: flex;
-justify-content: center;
-align-items: center;
+
 height: 100vh;
 background-color: rgb(252, 203, 220);
+
 }
 
 li{
@@ -46,7 +49,7 @@ font-size: large;
 
 }
 .box1{
-background-color: whitesmoke;
+background:linear-gradient(to right,#D3D3D3,#ffffff);
 margin: 10px;
 border-radius: 10px ;
 }
@@ -75,4 +78,29 @@ background-color: rgb(203, 241, 252);
 .foots{
 text-align: center;
 padding:12px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-left: -470px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+.skills p{
+    text-align: center;
+}
+.skills img {
+    transition: transform 0.3s ease; 
+}
+
+.skills img:hover {
+    transform: scale(1.05); 
+}
+.Projects .box1{
+    transition: transform 0.3s ease; 
+}
+.Projects .box1:hover{
+ transform: scale(1.03);
 }
